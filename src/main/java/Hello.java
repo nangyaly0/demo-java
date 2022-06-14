@@ -10,7 +10,7 @@ public class Hello extends HttpServlet {
 
    public void init() throws ServletException {
       // Do required initialization
-      message = "Hello World this .java file after Poll SCM";
+      message = "Hello World this .java file is build after webhook";
    }
 
    public void doGet(HttpServletRequest request, HttpServletResponse response)
