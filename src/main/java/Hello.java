@@ -10,11 +10,7 @@ public class Hello extends HttpServlet {
 
    public void init() throws ServletException {
       // Do required initialization
-<<<<<<< HEAD
       message = "Hello World";
-=======
-      message = "Hello World this .java file is build after webhook after first run after ngrok";
->>>>>>> origin
    }
 
    public void doGet(HttpServletRequest request, HttpServletResponse response)
